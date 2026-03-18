@@ -1,0 +1,222 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Saideepthi | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<!-- ✅ ADDED -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <h2 class="logo">Saideepthi</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="home">
+  <h1>Hello, I'm <span>Saideepthi</span></h1>
+  <h3 id="typing"></h3>
+  <p>AI & Software Engineering Enthusiast building intelligent systems and scalable applications.</p>
+
+  <a href="#" class="btn" target="_blank">
+     Download Resume
+  </a>
+
+  <div class="icons">
+    <a href="https://linkedin.com/in/saideepthi-narsini"><i class='bx bxl-linkedin'></i></a>
+    <a href="#"><i class='bx bxl-github'></i></a>
+    <a href="#"><i class='bx bx-code'></i></a>
+    <a href="#"><i class='bx bx-terminal'></i></a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+<h2>About <span>Me</span></h2>
+
+<div class="about-container">
+<img src="assets/profile.jpg">
+
+<p>
+Integrated M.Tech Software Engineering student at VIT (CGPA: 9.14).
+Strong in Data Structures, Artificial Intelligence, DBMS, OS, and OOP.
+
+Experienced in building AI-based systems, LLM applications, and scalable backend solutions.
+
+Skilled in Python, Java, FastAPI, Node.js, React, Docker, and PostgreSQL.
+</p>
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+<h2>My <span>Journey</span></h2>
+
+<div class="timeline">
+
+<div class="box">
+<span>2022 – 2027</span>
+<h3>Integrated MTECH - Software Engineering</h3>
+<p>Vellore Institute Of Technology</p>
+<p class="highlight">CGPA: 9.14</p>
+</div>
+
+<div class="box">
+<span>2020 – 2022</span>
+<h3>Intermediate (MPC)</h3>
+<p>NTR Junior And Degree College</p>
+<p class="highlight">97.9%</p>
+</div>
+
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="card">
+<h3>Prediction of Knee Osteoarthritis Severity Grading</h3>
+<p class="tech">PyTorch, EfficientNet, DenseNet, OpenCV</p>
+<ul>
+<li>94.76% accuracy with ensemble model</li>
+<li>Reduced misclassification by 25%</li>
+<li>CLAHE & data augmentation applied</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>MEMSRV – LLM Memory Service</h3>
+<p class="tech">Python, FastAPI, Vector Databases</p>
+<ul>
+<li>Semantic search & metadata filtering</li>
+<li>40% faster queries</li>
+<li>35% storage reduction</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Gemini Live API Voice Assistant</h3>
+<p class="tech">Python, WebSockets, JavaScript</p>
+<ul>
+<li>Real-time voice assistant</li>
+<li>Function calling & OpenAPI schema</li>
+<li>Bidirectional audio processing</li>
+</ul>
+</div>
+
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+<h2>Experience</h2>
+
+<div class="card">
+<h3>Research Intern – UNC Charlotte</h3>
+<span>Sep 2025 – Jan 2026</span>
+<p>
+Developed multi-workflow academic chatbot using LangGraph & RAG.
+Improved engagement by 40% and retention by 20%.
+Built BDD testing & LLM evaluation framework.
+</p>
+</div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2>My Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill-box">
+<h3>Programming</h3>
+<p>Python</p><div class="bar"><span style="width:90%"></span></div>
+<p>Java</p><div class="bar"><span style="width:85%"></span></div>
+<p>C++</p><div class="bar"><span style="width:80%"></span></div>
+<p>SQL</p><div class="bar"><span style="width:85%"></span></div>
+</div>
+
+<div class="skill-box">
+<h3>Frontend</h3>
+<p>React</p><div class="bar"><span style="width:80%"></span></div>
+<p>Next.js</p><div class="bar"><span style="width:75%"></span></div>
+</div>
+
+<div class="skill-box">
+<h3>Backend</h3>
+<p>FastAPI</p><div class="bar"><span style="width:85%"></span></div>
+<p>Node.js</p><div class="bar"><span style="width:75%"></span></div>
+<p>Express</p><div class="bar"><span style="width:75%"></span></div>
+</div>
+
+<div class="skill-box">
+<h3>Cloud & Tools</h3>
+<p>Docker</p><div class="bar"><span style="width:75%"></span></div>
+<p>Linux</p><div class="bar"><span style="width:80%"></span></div>
+<p>Git</p><div class="bar"><span style="width:85%"></span></div>
+</div>
+
+</div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+<h2>Certifications & Achievements</h2>
+
+<div class="cert-grid">
+
+<div class="cert-card">
+<h3>Cisco</h3>
+<p>Programming Essentials in Python</p>
+</div>
+
+<div class="cert-card">
+<h3>Google Cloud</h3>
+<p>Data Analytics & SAP Deployment</p>
+</div>
+
+<div class="cert-card">
+<h3>HackerRank</h3>
+<p>Java Gold, SQL Silver</p>
+</div>
+
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact Me</h2>
+
+<form id="contact-form">
+<input type="text" name="user_name" placeholder="Full Name" required>
+<input type="email" name="user_email" placeholder="Email" required>
+<input type="text" name="user_phone" placeholder="Mobile Number">
+<textarea name="message" placeholder="Message" required></textarea>
+<button type="submit">Send</button>
+<p id="status"></p>
+</form>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
